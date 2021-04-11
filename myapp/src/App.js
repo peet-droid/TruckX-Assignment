@@ -6,6 +6,7 @@ import Changename from './changename';
 import Edituser from './Edituser';
 import { Link } from 'react-router-dom';
 import Newuser from './changename';
+import axios from 'axios';
 import Nothing from './void';
 import {connect} from 'react-redux';
 import Base from './base';
@@ -57,6 +58,8 @@ class App extends React.Component{
       data: users,
       serachid:this.state.serachid,
     })
+    
+    axios.put(`https://reqres.in/api/users/${user.id}`,user).then(res => console.log(res.data));
 
     ReactDOM.render(<Nothing/> , document.getElementById('adduser'))
 
