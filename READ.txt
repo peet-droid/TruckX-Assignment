@@ -10,6 +10,6 @@ JS files related to this projects are
 ->deleteuser.js
 ->login.js(Renders the main component "Base" from base.js)
 ->newuser.js
-->void.js
+->void.js(it renders a empty div after the Update,edit and delete)
 
 also App.css , index.css
