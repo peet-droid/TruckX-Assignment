@@ -4,11 +4,11 @@ JavaScript files are in folder "src" (myapp/src)
 
 JS files related to this projects are 
 ->index.js
-->base.js(Contains class component "Base" Rendered by index.js )
+->base.js(Contains class component "Base" Rendered by login.js after authentication)
 ->App.js
 ->Edituser.js
 ->deleteuser.js
-->login.js
+->login.js(Renders the main component "Base" from base.js)
 ->newuser.js
 ->void.js
 
