@@ -20,3 +20,5 @@ Last name ->Bluth
 Id -> 1
 
 Or any user in reqres.in/api/users for log in 
+
+for search box its Case sensetive so please keep track of Upper Case and Lowercases
