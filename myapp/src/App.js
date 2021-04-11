@@ -16,11 +16,6 @@ class App extends React.Component{
   constructor(props){
     super(props);
     console.log(this.props,"in app js")
-    // var Httpreq = new XMLHttpRequest(); // a new request
-    // Httpreq.open("GET","https://reqres.in/api/users",false);
-    // Httpreq.send(null);
-    // this.json_obj = JSON.parse(Httpreq.responseText);
-    // this.users = this.json_obj;
     this.state={
       data: this.props.data,
       serachid: 0
@@ -102,7 +97,6 @@ class App extends React.Component{
   }
   
   render() {
-    //alert("there is a little bug please try setting the search box item to 0 see all the entries");
     let data = this.state.data;
     let listItems = data.map((d) => {
     if(this.state.serachid == 0){
