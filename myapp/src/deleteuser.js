@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 
 class Deluser extends React.Component{
         constructor(props){
@@ -15,6 +16,8 @@ class Deluser extends React.Component{
         submitHandler = e => {
                 e.preventDefault();
                 if(this.props.id == this.state.id){
+                        axios.delete(`https://reqres.in/api/users/${this.state.id}`)
+                        .then(res => console.log(res.data));
                         this.props.deluser(this.state);
                 }
                 else{
