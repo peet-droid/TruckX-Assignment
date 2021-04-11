@@ -1,0 +1,15 @@
+main html file is index.html (myapp/public/index.html)
+
+JavaScript files are in folder "src" (myapp/src)
+
+JS files related to this projects are 
+->index.js
+->base.js(Contains class component "Base" Rendered by index.js )
+->App.js
+->Edituser.js
+->deleteuser.js
+->login.js
+->newuser.js
+->void.js
+
+also App.css , index.css
