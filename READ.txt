@@ -27,4 +27,4 @@ I have shared a myapp.rar through drive( https://drive.google.com/file/d/1n9p94D
 
 decompress the myapp.rar
 go to "myapp" folder through terminal 
-type npm start in terminal the app should be running
+type "npm start" in terminal the app should be running
